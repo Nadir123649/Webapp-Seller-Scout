@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+/* Left Remarkable section css */
+
+body {
+    font-family: "Outfit", sans-serif !important;
+}
+
+.remarkable-component {
+    background-image: url("../../Assests/bg-remarkable.svg");
+    min-height: 100vh;
+    height: 100%;
+    padding: 44px 44px 0px 44px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100% 70%;
+}
+
+.content-logo {
+    padding-top: 100px;
+    max-width: 444px;
+    width: 100%;
+}
+
+.content-logo h1 {
+    color: #FFF;
+    font-family: Outfit !important;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 58px;
+}
+
+.content-logo p {
+    color: rgba(255, 255, 255, 0.75);
+    font-family: Outfit !important;
+    font-size: 16px;
+    margin-top: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.clip {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.clip img {
+    max-width: 100%;
+    height: auto;
+    margin: 0px 14px;
+    transition: transform 0.3s, opacity 0.3s;
+}
+
+.login-slider-padding {
+    padding-top: 80px !important;
+    padding-bottom: 80px !important;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+}
+
+.slick-dots li.slick-active button:before {
+    opacity: 0.75;
+    color: white !important;
+}
+
+.slick-dots li button:before {
+    font-family: "slick";
+    font-size: 12px;
+    line-height: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    content: "•";
+    text-align: center;
+    opacity: 0.25;
+    color: #f2f2f2 !important;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.fpBGKh {
+    overflow-y: hidden !important;
+    overflow-x: auto !important;
+}

@@ -1,0 +1,31 @@
+<svg width="14" height="9" viewBox="0 0 14 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="14" height="9" fill="#1E1E1E"/>
+<g id="Profile Setup 2">
+<rect width="1440" height="1315" transform="translate(-1326 -464)" fill="white"/>
+<g id="Mask group">
+<mask id="mask0_0_1" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="-1326" y="-464" width="1440" height="1157">
+<rect id="Rectangle 12" x="-1326" y="-464" width="1440" height="1157" fill="#D9D9D9"/>
+</mask>
+<g mask="url(#mask0_0_1)">
+<g id="Group 15">
+<rect id="Rectangle 9" x="-1326" y="-464" width="1440" height="1157" fill="#FCFCFC"/>
+<g id="Ellipse 3" filter="url(#filter0_f_0_1)">
+<circle cx="-311.5" cy="100.5" r="97.5" fill="#73A0D7"/>
+</g>
+<rect id="Rectangle 10" opacity="0.8" x="-1326" y="-464" width="1440" height="1157" fill="#FCFCFC"/>
+</g>
+</g>
+</g>
+<g id="Group 3">
+<rect id="Input" x="-524.5" y="-23.5" width="557" height="55" rx="11.5" fill="#FCFCFC" stroke="#ECF0FA"/>
+<path id="Vector 3" d="M1 1L7.19355 7L13 1" stroke="#BCBCBC" stroke-width="2" stroke-linecap="round"/>
+</g>
+</g>
+<defs>
+<filter id="filter0_f_0_1" x="-649.4" y="-237.4" width="675.8" height="675.8" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="120.2" result="effect1_foregroundBlur_0_1"/>
+</filter>
+</defs>
+</svg>

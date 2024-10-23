@@ -1,0 +1,92 @@
+.table-sort-buttons {
+  display: flex;
+  flex-direction: column;
+}
+.main-table-section {
+  max-height: 430px;
+  overflow-y: scroll;
+  position: relative;
+  clear: both;
+  height: 100%;
+}
+.bootstrap-table thead tr th {
+  padding: 5px 0 !important;
+  box-sizing: border-box;
+}
+.bootstrap-table tbody tr td {
+  font-size: 10.5px !important;
+}
+.bootstrap-table tbody tr td .seller-name {
+  width: 100%;
+  text-align: left;
+  max-width: 85px;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  white-space: normal;
+}
+
+.bootstrap-table tbody tr td .seller-name a {
+  color: black;
+  text-decoration: none;
+  font-size: 10.5px !important;
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.bootstrap-table tbody tr td .seller-name a:hover {
+  color: #00c853;
+}
+.bootstrap-table thead th .th-inner {
+  padding: 0 1.15rem 0 10px !important;
+  vertical-align: bottom;
+  overflow: hidden;
+  font-weight: 400 !important;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 11px !important;
+}
+
+.bootstrap-table thead th .both {
+  background-image: url("../../Assests/sort.png");
+  cursor: pointer;
+  background-position: right;
+  background-repeat: no-repeat;
+}
+
+.bootstrap-table thead th .sort-up {
+  background-image: url("../../Assests/sort-up.png");
+  cursor: pointer;
+  background-position: right;
+  background-repeat: no-repeat;
+}
+
+.bootstrap-table thead th .sort-down {
+  background-image: url("../../Assests/sort-down.png");
+  cursor: pointer;
+  background-position: right;
+  background-repeat: no-repeat;
+}
+
+.bootstrap-table > tbody > tr > .amazon-seller {
+  font-weight: 600 !important;
+  font-size: 10.5px !important;
+}
+.main-table-section {
+  overflow-x: auto;
+  overflow-y: auto;
+  max-height: "400px";
+  max-width: "100%";
+}
+
+.table-heading {
+  text-align: center;
+  padding-right: "18px !important";
+  font-size: "12px";
+  cursor: "pointer";
+}
+
+.table-data {
+  padding: "20px";
+  white-space: nowrap;
+  text-align: right !important;
+}

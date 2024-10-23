@@ -1,0 +1,369 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+/* login page css */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Outfit", sans-serif !important;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+:root {
+  --white-color: #ffff;
+  ---purple-color: #4B1B97;
+  --btn-color: #FBBC31;
+}
+
+main {
+  padding: 35px;
+}
+
+.login-form-section {
+  max-width: 550px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.login-form-content {
+  padding-bottom: 50px;
+}
+
+.login-form-content h1 {
+  color: #0A0A0C;
+  font-family: Outfit !important;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.32px;
+}
+
+.login-form-content h1 span {
+  color: #4B1B97;
+}
+
+.login-form-content p {
+  color: #414143;
+  font-family: Outfit !important;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.label-text {
+  color: #414143;
+  font-family: Outfit !important;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 22px;
+}
+
+.form-input-text {
+  display: flex;
+  height: 48px;
+  width: 100%;
+  align-items: center;
+  gap: 10px;
+  padding: 20px 10px 20px 14px;
+  border-radius: 12px;
+  background: rgba(0, 102, 255, .071) !important;
+  box-shadow: 0 10px 22px 0 hsla(0, 0%, 78%, .3);
+  border: none !important;
+  color: rgba(65, 65, 67, 0.50);
+  font-family: Outfit !important;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  letter-spacing: 0.14px;
+}
+
+.form-input-text {
+  font-family: Outfit !important;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  letter-spacing: 0.14px;
+}
+
+.form-input-text:focus {
+  border: none !important;
+  box-shadow: 0 10px 22px 0 hsla(0, 0%, 78%, .3) !important;
+  outline: none !important;
+  background: rgba(0, 102, 255, .071) !important;
+}
+
+.forgot-password {
+  color: #4B1B97 !important;
+  text-align: right;
+  font-family: Outfit !important;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.14px;
+}
+
+.forgot-password:hover {
+  text-decoration: underline !important;
+}
+
+.create-account {
+  color: #414143;
+  font-family: Outfit !important;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 14px;
+}
+
+.create-account a {
+  color: #4B1B97;
+  font-weight: 500;
+  font-family: Outfit !important;
+}
+
+.create-account a:hover {
+  text-decoration: underline !important;
+}
+
+.login-btn {
+  border-radius: 12px !important;
+  background: #FBBC31 !important;
+  width: 100% !important;
+  box-shadow: 0px 10px 22px 0px rgba(198, 198, 198, 0.30) !important;
+  color: #010101 !important;
+  font-family: Outfit !important;
+  font-size: 16px;
+  font-style: normal;
+  height: 48px !important;
+  border: none !important;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0.16px;
+}
+
+.loader{
+  border: 4px solid #f3f3f3 !important;
+  border-top: 4px solid #4B1B97 !important;
+  border-radius: 50% !important;
+  width: 30px;
+  height: 30px;
+  animation: spin 2s linear infinite;
+}
+.password-cont {
+  position: relative;
+}
+
+.show-password {
+  position: absolute;
+  right: 15px;
+  top: 46px;
+  color: #0A0A0C;
+}
+
+.center-title {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.contanier-type2 h2 {
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.contanier-type2 .sub-title {
+  font-size: 14px;
+  color: #393939;
+}
+
+.contanier-type2 h3 {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.contanier-type2 p {
+  font-size: 14px;
+}
+
+.focused-input {
+  border: 0;
+  border-bottom: 1px solid #000;
+  outline: 0;
+  transition: border-color 0.2s;
+}
+
+.menu-items img {
+  margin-right: 10px;
+}
+
+/* Material Pagination */
+.MuiPagination-ul {
+  justify-content: flex-end !important;
+}
+
+.MuiPagination-ul li button {
+  background-color: #f3f4f6;
+  border: 1px solid #f3f4f6;
+}
+
+.MuiPagination-ul li button.Mui-selected {
+  background-color: #44a048;
+  border: 1px solid #44a048;
+  color: white;
+}
+
+#dropdown-basic {
+  background-color: white !important;
+  color: #000 !important;
+  font-family: "albert light", "sans-serif";
+  font-weight: 500 !important;
+  /* font-size: 0.9rem; */
+}
+
+.flag-alignment {
+  padding: 1rem;
+  width: auto;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+
+.table-global-action-container {
+  display: flex;
+}
+
+.css-ptkaw2-MuiDataGrid-root .MuiDataGrid-cellContent {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-family: "albert light", "sans-serif";
+  font-weight: 500;
+  font-size: 0.9rem;
+}
+
+.css-t89xny-MuiDataGrid-columnHeaderTitle {
+  font-family: "albert", "sans-serif";
+  font-size: 1rem;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.logo {
+  width: 250px;
+  margin-bottom: 5rem;
+}
+
+.showing {
+  margin: 0;
+  font-family: "Averta", sans-serif !important;
+  font-size: 13px !important;
+  font-weight: 100 !important;
+}
+
+.market-place-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  z-index: 1;
+  gap: 20px;
+  width: 240px;
+  justify-content: start;
+}
+
+.item-marketplace-flex {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.item-marketplace {
+  width: 40px;
+}
+
+.flag-icons {
+  width: 20px;
+}
+
+.active-icon {
+  border: 1.5px solid white;
+  border-radius: 50%;
+  width: 8px;
+  height: 8px;
+  background-color: green;
+  display: inline-block;
+}
+
+.active-icon-red {
+  border: 1.5px solid white;
+  border-radius: 50%;
+  width: 8px;
+  height: 8px;
+  background-color: red;
+  display: inline-block;
+}
+
+
+.spinner-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+}
+
+.outlet {
+  padding: 0px 5rem;
+  margin-top: 20px;
+}
+
+/* PULSE BUBBLES */
+.pulse-container {
+  width: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pulse-bubble {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: #ffffff;
+}
+
+.pulse-bubble-1 {
+  animation: pulse 0.4s ease 0s infinite alternate;
+}
+
+.pulse-bubble-2 {
+  animation: pulse 0.4s ease 0.2s infinite alternate;
+}
+
+.pulse-bubble-3 {
+  animation: pulse 0.4s ease 0.4s infinite alternate;
+}
+
+@keyframes pulse {
+  from {
+    opacity: 1;
+    transform: scale(1);
+  }
+
+  to {
+    opacity: 0.25;
+    transform: scale(0.75);
+  }
+}
